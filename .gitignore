@@ -1,0 +1,8 @@
+# Python speed-up files
+__pycache__/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files (stores folder display settings)
+.DS_Store
