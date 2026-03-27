@@ -34,3 +34,5 @@ MJ = astropy.constants.M_jup.to("kg").value
 ME = astropy.constants.M_earth.to("kg").value
 # G = 6.6743e-11  # m3/kg/s2
 G = astropy.constants.G.to("m**3 * kg**-1 * s**-2").value
+# eV = 1.602e-19  # J
+eV = astropy.constants.e.to("C").value*1.0  # energy = charge x voltage
