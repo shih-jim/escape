@@ -36,3 +36,5 @@ ME = astropy.constants.M_earth.to("kg").value
 G = astropy.constants.G.to("m**3 * kg**-1 * s**-2").value
 # eV = 1.602e-19  # J
 eV = astropy.constants.e.to("C").value*1.0  # energy = charge x voltage
+# sigma_sb = 5.670374419e-8  # W/m2/K4
+sigma_sb = astropy.constants.sigma_sb.to("W/m**2/K**4").value
