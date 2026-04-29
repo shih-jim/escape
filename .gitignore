@@ -6,3 +6,6 @@ __pycache__/
 
 # macOS system files (stores folder display settings)
 .DS_Store
+
+#data folder
+data/
